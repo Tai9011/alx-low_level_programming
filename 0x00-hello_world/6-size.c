@@ -3,7 +3,7 @@
  * main - entry poin
  * Description: printing sizes of types
  * Return: always 0 (Success)
- * /
+ */
 int main(void)
 {
 	printf("Size of a char: %lu byte(s)\n",sizeof(char));
