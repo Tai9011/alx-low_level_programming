@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main(void) - Runs c
+ * main - Entry point
  * Description: a c program that uses put finction
  *
  * Return: always 0 (success)
