@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
  * main - entry point
- * description:  print statement
- * return - always returns 1 (failure)
+ * description: print statement
+ * return: 1 (failure)
  */
 int main(void)
 {
