@@ -1,4 +1,4 @@
-#include<stio.h>
+#include<stdio.h>
 /**
  * main - Entry point
  * Description: a c program that uses put finction
