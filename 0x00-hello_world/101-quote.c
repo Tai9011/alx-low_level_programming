@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- * main - general
- * printf -print statement
- * return- always returns 1 (failure)
+ * main - entry point
+ * printf - print statement
+ * return - always returns 1 (failure)
  */
 int main(void)
 { 
