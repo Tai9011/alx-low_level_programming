@@ -4,7 +4,7 @@
 /**
  * main - entry point
  * description: a function that displays whether a nb is positive or negative
- * return: always returns 0 (success)
+ * Return: always returns 0 (success)
  */
 int main(void)
 {
