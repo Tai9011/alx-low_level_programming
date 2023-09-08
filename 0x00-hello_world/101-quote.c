@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
  * main - entry point
- * printf - print statement
+ * description:  print statement
  * return - always returns 1 (failure)
  */
 int main(void)
