@@ -2,7 +2,7 @@
 /**
  * main - entry point
  * description: print statement
- * return: 1 (failure)
+ * Return: 1 (failure)
  */
 int main(void)
 {
