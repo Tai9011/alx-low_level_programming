@@ -9,7 +9,7 @@ int main(void)
 {
 	int di = 0;
 
-	while(di < 10)
+	while (di < '10')
 	{
 		putchar(di);
 		di++;
