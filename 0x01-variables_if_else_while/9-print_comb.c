@@ -12,7 +12,7 @@ int main(void)
 	while (dg < 10)
 	{
 		putchar(dg);
-		putchar(", ");
+		putchar(', ');
 		dg++;
 	return (0);
 }
