@@ -11,7 +11,7 @@ int main(void)
 
 	while (di < 10)
 	{
-		putchar(di);
+		putchar(di + '0');
 		di++;
 	}
 	putchar('\n');
