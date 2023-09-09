@@ -9,11 +9,8 @@ int main(void)
 {
         char ch = 'a';
 
-        while (ch != 'q'&& ch != 'e')
-	{
+        for (ch = 'a'; ch != 'q'&& ch != 'e'; ch++)
 		putchar(ch);
-		ch++;
-	}
         putchar('\n');
         return (0);
 
