@@ -13,5 +13,6 @@ int main(void)
 	{
 		putchar(dg);
 		dg++;
+	}
 	return (0);
 }
