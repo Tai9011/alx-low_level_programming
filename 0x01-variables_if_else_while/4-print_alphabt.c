@@ -9,9 +9,15 @@ int main(void)
 {
         char ch = 'a';
 
-        for (ch = 'a'; ch != 'q'&& ch != 'e'; ch++)
+	while (ch <= 'z')
+	{
+		if (ch == e || ch == q)
+			ch++;
 		putchar(ch);
+		ch++;
+	}
         putchar('\n');
+	
         return (0);
 
 }
