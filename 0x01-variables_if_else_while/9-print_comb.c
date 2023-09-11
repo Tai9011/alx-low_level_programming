@@ -12,7 +12,7 @@ int main(void)
 	while (dg < 10)
 	{
 		putchar('0' + dg);
-		putchar(" ,");
+		putchar(' 44');
 		dg++;
 	}
 	return (0);
