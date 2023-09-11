@@ -10,7 +10,7 @@ int main(void)
 	char ag = 'a';
 
 	while (dg <= 9)
-	{	
+	{
 		putchar(dg + '0');
 		dg++;
 	}
