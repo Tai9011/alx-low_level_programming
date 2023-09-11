@@ -8,20 +8,33 @@ int main(void)
 {
 	int dg1 = 0;
 	int dg2;
+	int dg0 = 0;
+	int dg00;
 
-	while (dg1 <= 9)
+	while (dg0 <= 9)
 	{
-		dg2 = 0;
-		while (dg2 <= 9)
+		dg00 = 0;
+		while (dg00 <= 9)
 		{
-			putchar(dg1 + 48);
-			putchar(dg2 + 48);
-			putchar(',');
+			putchar(dg0 + 48);
+			putchar(dg00 +48);
 			putchar(' ');
-			dg2++;
+			while (dg1 <= 9)
+			{
+				dg2 = 0;
+				while (dg2 <= 9)
+				{
+					putchar(dg1 + 48);
+					putchar(dg2 + 48);
+					putchar(',');
+					putchar(' ');
+					dg2++;
+				}
+				dg1++;
+			}
+			dg00++;
 		}
-		dg1++;
+		dg0++;
 	}
-	putchar('\n');
 	return (0);
 }
