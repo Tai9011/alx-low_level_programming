@@ -15,7 +15,7 @@ int main(void)
 	}
 	while (ag <= 'F')
 	{
-		putchar(ag + '0');
+		putchar(ag);
 		ag++;
 	}
 	putchar('\n');
