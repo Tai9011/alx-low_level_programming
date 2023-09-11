@@ -13,8 +13,8 @@ int main(void)
 	{
 		if (s < r)
 		{
-		putchar(s + 0);
-		putchar(r + 0);
+		putchar(s + 48);
+		putchar(r + 48);
 		putchar(44);
 		putchar(32);
 		}
