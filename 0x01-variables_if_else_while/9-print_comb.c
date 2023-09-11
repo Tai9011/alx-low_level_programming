@@ -12,7 +12,8 @@ int main(void)
 	while (dg < 10)
 	{
 		putchar('0' + dg);
-		putchar(' 44');
+		putchar('44');
+		putchar('32');
 		dg++;
 	}
 	return (0);
