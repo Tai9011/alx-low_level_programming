@@ -15,13 +15,13 @@ int main(void)
 		putchar(r + 48);
 		putchar(44);
 		putchar(32);
+		if (s < r || r == s)
+			r++;
 		if (r == 9)
 		{
 			r = 0;
 			r++;
 			s++;
-			if ( r == s || s > r)
-				r++;
 		} else
 			r++;
 	}
