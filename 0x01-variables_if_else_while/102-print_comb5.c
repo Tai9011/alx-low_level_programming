@@ -14,10 +14,14 @@ int main(void)
 		dg2 = 0;
 		while (dg2 <= 9)
 		{
-			dg3 = 0;
 			dg2++;
+			putchar(dg1 + 48);
+			putchar(dg2 +48);
+			putchar(',');
+			putchar(' ');
 		}
 		dg1++;
 	}
+	putchar('\n');
 	return (0);
 }
