@@ -9,21 +9,21 @@ int main(void)
 	int s = 0;
 	int r = 1;
 
-	while (s <= 9 && r <= 9)
+	while (s <= 9)
 	{
-		putchar(s + 48);
-		putchar(r + 48);
-		putchar(44);
-		putchar(32);
-		if (s < r || r == s)
-			r++;
-		if (r == 9)
+		r = 0;
+		while(r <= 9)
 		{
-			r = 0;
-			r++;
+			if( r != s && r > s)
+			{
+				putchar(s + 48);
+				putchar(r + 48);
+				putchar(44);
+				putchar(32);
+				r++;
+			}
 			s++;
-		} else
-			r++;
+		}
 	}
 	putchar('\n');
 	return (0);
