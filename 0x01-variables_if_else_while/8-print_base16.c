@@ -7,13 +7,13 @@
 int main(void)
 {
 	char dg = 0;
-	char ag = 10;
+	char ag = 'a';
 	while (dg <= 9)
 	{	
 		putchar(dg + '0');
 		dg++;
 	}
-	while (ag <= 15)
+	while (ag <= 'F')
 	{
 		putchar(ag + '0');
 		ag++;
