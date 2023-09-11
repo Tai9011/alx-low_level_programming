@@ -37,6 +37,6 @@ int main(void)
 		}
 		dg1++;
 	}
-
+	putchar('\n');
 	return (0);
 }
