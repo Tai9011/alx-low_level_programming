@@ -16,14 +16,14 @@ int main(void)
 		dg00 = 0;
 		while (dg00 <= 9)
 		{
-			putchar(dg0 + 48);
-			putchar(dg00 +48);
-			putchar(' ');
 			while (dg1 <= 9)
 			{
 				dg2 = 0;
 				while (dg2 <= 9)
 				{
+					putchar(dg0 + 48);
+					putchar(dg00 + 48);
+					putchar(' ');
 					putchar(dg1 + 48);
 					putchar(dg2 + 48);
 					putchar(',');
