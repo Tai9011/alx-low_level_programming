@@ -9,7 +9,7 @@ int main(void)
 {
 	int dg = 0;
 
-	while (dg =< 9)
+	while (dg <= 9)
 	{
 		putchar('0' + dg);
 		dg++;
@@ -19,6 +19,6 @@ int main(void)
 		putchar(44);
 		putchar(32);
 	}
-	putchar('\n')
+	putchar('\n');
 	return (0);
 }
