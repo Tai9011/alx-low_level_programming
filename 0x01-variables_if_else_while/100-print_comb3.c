@@ -22,6 +22,8 @@ int main(void)
 			s++;
 		} else
 			r++;
+		if (r == s || s > r)
+			r++;
 	}
 	putchar('\n');
 	return (0);
