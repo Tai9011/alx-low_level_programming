@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-	dg1 = 0;
-	dg2;
+	int dg1 = 0;
+	int dg2;
 
 	while (dg1 <= 9)
 	{
