@@ -18,12 +18,15 @@ int main(void)
 			{
 				putchar(s + 48);
 				putchar(r + 48);
-				putchar(44);
-				putchar(32);
-				r++;
+				if (r + s != 17)
+				{ 
+					putchar(44);
+					putchar(32);
+				}
 			}
-			s++;
+			r++;
 		}
+		s++;
 	}
 	putchar('\n');
 	return (0);
