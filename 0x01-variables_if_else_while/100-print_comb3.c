@@ -1,8 +1,8 @@
 #include<stdio.h>
 /**
- *
- *
- *
+ * main - entry point
+ * description: a code that prints combinations of 2 numbers
+ * Return: always returns a value of 0 (success)
  */
 int main(void)
 {
@@ -17,7 +17,8 @@ int main(void)
 		putchar(32);
 		if ( r == 9)
 		{
-			r--;
+			r = 0;
+			r++;
 			s++;
 		} else 
 			r++;
