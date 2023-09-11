@@ -1,4 +1,4 @@
-#include<stdio.h>
+i#include<stdio.h>
 /**
  * main - entry point
  * description: function that prints comb of 3 dgs
@@ -16,9 +16,9 @@ int main(void)
 		while (dg2 <= 9)
 		{
 			dg3 = 0;
-			while (dg 3 <= 9)
+			while (dg3 <= 9)
 			{
-				if (dg1 != dg2 && dg2 != dg3 && dg1 < dg2 < dg3)
+				if (dg1 != dg2 && dg2 != dg3 && dg1 < dg2 && dg2 < dg3)
 				{
 					putchar(dg1 + 48);
 					putchar(dg2 + 48);
