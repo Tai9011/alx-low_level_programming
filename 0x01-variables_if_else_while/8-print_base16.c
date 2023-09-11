@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-	char dg = 30;
-	char ag = 42;
-	while (dg <= 39)
+	char dg = 0;
+	char ag = 10;
+	while (dg <= 9)
 	{	
 		putchar(dg + '0');
 		dg++;
 	}
-	while (ag <= 46)
+	while (ag <= 15)
 	{
 		putchar(ag + '0');
 		ag++;
