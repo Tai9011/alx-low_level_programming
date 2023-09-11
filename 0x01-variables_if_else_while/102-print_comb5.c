@@ -14,6 +14,7 @@ int main(void)
 		dg2 = 0;
 		while (dg2 <= 9)
 		{
+			dg3 = 0;
 			dg2++;
 		}
 		dg1++;
