@@ -1,4 +1,4 @@
-i#include<stdio.h>
+#include<stdio.h>
 /**
  * main - entry point
  * description: function that prints comb of 3 dgs
