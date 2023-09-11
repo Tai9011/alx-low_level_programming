@@ -16,6 +16,7 @@ int main(void)
 		dg00 = 0;
 		while (dg00 <= 9)
 		{
+			dg1 = 0;
 			while (dg1 <= 9)
 			{
 				dg2 = 0;
