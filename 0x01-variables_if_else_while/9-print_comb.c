@@ -12,12 +12,12 @@ int main(void)
 	while (dg <= 9)
 	{
 		putchar('0' + dg);
+		if (dg != 9)
+		{
+			putchar(44);
+			putchar(32);
+		}
 		dg++;
-	}
-	if (dg != 9)
-	{
-		putchar(44);
-		putchar(32);
 	}
 	putchar('\n');
 	return (0);
