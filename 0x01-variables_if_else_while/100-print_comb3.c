@@ -22,7 +22,7 @@ int main(void)
 			s++;
 		} else
 			r++;
-		if (r == s || s > r)
+		if (r == s)
 			r++;
 	}
 	putchar('\n');
