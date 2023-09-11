@@ -20,11 +20,9 @@ int main(void)
 			r = 0;
 			r++;
 			s++;
+			if ( r == s || s > r)
+				r++;
 		} else
-			r++;
-		if (r == s)
-			r++;
-		if (s > r)
 			r++;
 	}
 	putchar('\n');
