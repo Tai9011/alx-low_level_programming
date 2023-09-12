@@ -15,7 +15,7 @@
 	char t = 'a';
 	char s = 'r';
 
-	_putchar(c);
+	_putchar(char c);
 	_putchar(z);
 	_putchar(y);
 	_putchar(x);
