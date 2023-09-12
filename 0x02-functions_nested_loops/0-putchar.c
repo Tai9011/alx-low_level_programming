@@ -1,5 +1,4 @@
 #include<unistd.h>
-#include<main.h>
 /**
  * print - prints _putchar
  * description: writing my own function
