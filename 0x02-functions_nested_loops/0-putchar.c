@@ -6,9 +6,9 @@
  * Return: always returns 0 (success)
  * char: a character
  */
-int print(char)
+int print(int)
 {
-	_putchar('_putchar');
+	_putchar("_putchar");
 	_putchar('\n');
 	return (0);
 }
