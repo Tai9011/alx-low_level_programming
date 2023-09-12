@@ -7,7 +7,7 @@
  * Return: always returns 0 (success)
  * char: a character
  */
-int main
+int main(void)
 {
 	char c = '_';
 	char z = 'p';
