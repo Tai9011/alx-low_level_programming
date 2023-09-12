@@ -7,13 +7,13 @@
  * char: a character
  */
 	char c = '_';
-	char z = p;
-	char y = '117';
-	char x = '116';
-	char v = '99';
-	char u = '104';
-	char t = '97';
-	char s = '114';
+	char z = 'p';
+	char y = 'u';
+	char x = 't';
+	char v = 'c';
+	char u = 'h';
+	char t = 'a';
+	char s = 'r';
 
 	_putchar(c);
 	_putchar(z);
@@ -23,4 +23,5 @@
 	_putchar(u);
 	_putchar(t);
 	_putchar(s);
+	_putchar('\n');
 	return (0);
