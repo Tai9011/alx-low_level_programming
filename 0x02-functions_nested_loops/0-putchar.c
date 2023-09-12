@@ -1,4 +1,5 @@
 #include"main.h"
+#include<stdio.h>
 /**
  * main - entry point
  * print - prints _putchar
@@ -6,6 +7,8 @@
  * Return: always returns 0 (success)
  * char: a character
  */
+int main
+{
 	char c = '_';
 	char z = 'p';
 	char y = 'u';
@@ -15,7 +18,7 @@
 	char t = 'a';
 	char s = 'r';
 
-	_putchar(char c);
+	_putchar(c);
 	_putchar(z);
 	_putchar(y);
 	_putchar(x);
@@ -25,3 +28,4 @@
 	_putchar(s);
 	_putchar('\n');
 	return (0);
+}
