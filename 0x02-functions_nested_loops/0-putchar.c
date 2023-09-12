@@ -6,10 +6,8 @@
  * Return: always returns 0 (success)
  * char: a character
  */
-int main(void)
-{
-	char c = '95';
-	char z = '112';
+	char c = '_';
+	char z = p;
 	char y = '117';
 	char x = '116';
 	char v = '99';
@@ -26,4 +24,3 @@ int main(void)
 	_putchar(t);
 	_putchar(s);
 	return (0);
-}
