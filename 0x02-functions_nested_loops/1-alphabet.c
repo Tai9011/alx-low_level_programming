@@ -1,12 +1,17 @@
-#include "main.h"
 #include<stdio.h>
+#include<unistd.h>
+#include "main.h"
 /**
- * main - entry point
- * description: dunction prints the alphabet
- * Return: Always 0.
+ * print_alphabet - prints the alphabet
+ * Return: returns the value given
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	char a = 'a';
+
+	while (a <= 'z')
+	{
+		_putchar(a);
+	}
+	_putchar('\n');
 }
