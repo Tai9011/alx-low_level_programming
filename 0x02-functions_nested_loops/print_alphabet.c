@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include<unistd.h>
+#include "main.h"
 /**
  * print_alphabet - prints the alphabet
  * Return: returns the value given
@@ -10,8 +11,7 @@ void print_alphabet(void)
 
 	while (a <= 'z')
 	{
-		putchar(a);
+		_putchar(a);
 	}
-	putchar('\n');
-	return;
+	_putchar('\n')
 }
