@@ -6,13 +6,13 @@
  */
 int _abs(int nb)
 {
-	if (nb >= 0)
+	if (nb > 0)
 		_putchar(nb + 48);
 	else if (nb == 0)
-		_putchar('0' + 48);
+		_putchar(nb);
 	else
 	{
-		int nb2 = nb + (nb * 2);
+		int nb2 = nb + (nb * 50);
 
 		_putchar(nb2 + 48);
 	}
