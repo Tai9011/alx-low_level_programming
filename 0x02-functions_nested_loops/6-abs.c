@@ -10,9 +10,9 @@ int _abs(int nb)
 		_putchar(nb);
 	else
 	{
-		int nb = nb * -1;
+		int nb2 = nb * -1;
 
-		_putchar(nb);
+		_putchar(nb2);
 	}
 	return (0);
 }
