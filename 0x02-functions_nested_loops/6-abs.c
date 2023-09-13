@@ -4,13 +4,13 @@
  * @nb: variable
  * Return: always returns 0
  */
-int _abs(int nb)
+int _abs(int)
 {
-	if (nb >= 0)
-		_putchar(nb);
+	if (int >= 0)
+		_putchar(int);
 	else
 	{
-		int nb2 = nb * -1;
+		int nb2 = int * -1;
 
 		_putchar(nb2);
 	}
