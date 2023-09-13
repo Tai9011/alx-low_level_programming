@@ -8,11 +8,12 @@ void times_table(void)
 
 	while (nb <= 9)
 	{
-		_putchar(48);
-		int multi = 0;
+		int multi = 1;
 
-		while (multi <= 9 && multi > 0)
+		while (multi <= 9)
 		{
+			_putchar(48);
+
 			int prod;
 
 			prod = multi * nb;
