@@ -6,9 +6,12 @@
  */
 int _abs(int nb)
 {
-	if (nb >= 48)
-		_putchar(nb + 48);
-	else 
-		_putchar('f');
-	return (0);
+	if (nb >= 0)
+		_putchar(nb);
+	else
+	{
+		nb = nb * (-1);
+		_putchar(nb);
+	}
+	return (nb);
 }
