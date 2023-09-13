@@ -12,7 +12,7 @@ int _abs(int nb)
 		_putchar(0);
 	else
 	{
-		int nb2 = nb * (-1);
+		int nb2 = nb + (nb * 2);
 
 		_putchar(nb2);
 	}
