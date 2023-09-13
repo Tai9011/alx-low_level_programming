@@ -7,12 +7,12 @@
 int _abs(int nb)
 {
 	if (nb >= 0)
-		_putchar(nb + 48);
+		_putchar(nb);
 	else
 	{
 		int nb2 = nb * (-1);
 
-		_putchar(nb2 + 48);
+		_putchar(nb2);
 	}
 	return (0);
 }
