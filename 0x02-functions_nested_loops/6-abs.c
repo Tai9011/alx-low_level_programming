@@ -6,7 +6,7 @@
  */
 int _abs(int nb)
 {
-	if (nb >= 0)
+	if (nb >= 48)
 		_putchar(nb + 48);
 	else 
 		_putchar('f');
