@@ -4,19 +4,21 @@
  */
 void times_table(void)
 {
-	int nb;
+	int nb = 0;
 
-	for (nb = 0; nb <= 9; nb++)
+	while (nb <= 9)
 	{
-		int multi;
+		int multi = 0;
 
-		for (multi = 0; multi <= 9; multi++)
+		while (multi <= 9)
 		{
 			multi = multi * nb;
 			_putchar(multi);
 			_putchar(',');
 			_putchar(' ');
+			multi++;
 		}
 		_putchar('\n');
+		nb++;
 	}
 }
