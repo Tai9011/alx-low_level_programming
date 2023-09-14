@@ -21,10 +21,10 @@ void print_times_table(int n)
 		{
 			_putchar((multiply / 10) + 48);
 			_putchar((multiply % 10) + 48);
-
 		}
 		else
 			_putchar(multiply + 48);
-
+		_putchar(',');
+		_putchar(' ');
 	}
 }
