@@ -9,18 +9,17 @@ void more_numbers(void)
 
 	while (i <= 9)
 	{
-		nb = 0;
 		while (nb <= 14)
 		{
-			_putchar(nb + 48);
+			if (nb > 9)
+			{
+				_putchar(1 + 48);
+				_putchar((nb % 10) + 48);
+			}
 			nb++;
+
 		}
-		if (i < 9)
-		{
-			_putchar('\n');
-			i++;
-		}
-		else
-			i++;
+		i++;
+		_putchar('\n');
 	}
 }
