@@ -2,6 +2,7 @@
 /**
  * print_numbers - prints numbers
  * @i: variable
+ * Return: no return value
  */
 void print_numbers(void)
 {
