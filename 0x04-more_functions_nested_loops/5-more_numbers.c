@@ -4,11 +4,12 @@
  */
 void more_numbers(void)
 {
-	int nb = 0;
+	int nb;
 	int i = 0;
 
 	while (i <= 9)
 	{
+		nb = 0;
 		while (nb <= 14)
 		{
 			_putchar(nb + 48);
