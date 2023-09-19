@@ -6,5 +6,6 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	return (*dest);
+	*dest = 8;
+	*src = 7;
 }
