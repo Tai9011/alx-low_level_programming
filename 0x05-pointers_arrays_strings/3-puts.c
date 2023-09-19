@@ -5,8 +5,5 @@
  */
 void _puts(char *str)
 {
-	for (str = 0; str = str; str++)
-	{
-		_putchar(str);
-	}
+	*str = stdout;
 }
