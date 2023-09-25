@@ -5,9 +5,9 @@
  */
 void rev_string(char *s)
 {
-	int i = 0;
+	int i;
 
-	while (s[i])
+	for (i = 0; *s != '\0'; s++)
 	{
 		_putchar(s[i]);
 		i++;
