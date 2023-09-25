@@ -5,7 +5,11 @@
  */
 void print_rev(char *s)
 {
-	 for (*s = '\0'; *s >= 0; s--)
-		 _putchar(*s + 0);
+	int i = 0;
+
+	while (s[i])
+		i++;
+	while (i--)
+		_putchar (s[i]);
 	 _putchar ('\n');
 }
