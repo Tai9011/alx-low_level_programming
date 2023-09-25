@@ -9,7 +9,8 @@ void _puts(char *str)
 
 	for (nb = 0; *str != '\0'; str++)
 	{
-		_putchar('str[nb]' + 48);
+		_putchar(str[nb] + 0);
 		nb++;
 	}
+	_putchar('\n');
 }
