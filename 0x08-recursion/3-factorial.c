@@ -1,4 +1,4 @@
-int "main.h"
+#include "main.h"
 /**
  * factorial - prints factorial
  * @n: integer
