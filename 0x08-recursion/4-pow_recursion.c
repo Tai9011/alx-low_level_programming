@@ -1,7 +1,9 @@
 #include "main.h"
 /**
- *
- *
+ * _pow_recursion - recursive function
+ * @x: integer
+ * @y: integer
+ * Return: return 0
  */
 int _pow_recursion(int x, int y)
 {
@@ -9,8 +11,11 @@ int _pow_recursion(int x, int y)
 		return (-1);
 	else
 	{
-		while (y--)
+		while (y >= 0)
+		{
 			return (x * _pow_recursion(x, y));
+			y--;
+		}
 	}
-	return (0);
+	return (x);
 }
